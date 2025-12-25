@@ -56,7 +56,6 @@ CONTRIBUTORS/
 **Example file content:**
 ```
 Name: John Doe
-GitHub Username: johndoe123
 College: University of Technology
 Fun Fact/Story: I once wrote code that compiled on the first try!
 ```
