@@ -1,0 +1,7 @@
+1. The Flag: geek{grep_is_good_to_find_things_cEDf1591}
+2. The Command: grep -o "{[^}]*}" file | head
+3. The Proof: https://drive.google.com/drive/folders/1joZ8EK4WTNy_tDAVgebQ6muxoBUOhkAm?usp=sharing
+I used grep -o "{[^}]*}" file to search the file for text enclosed in curly braces.
+The -o option makes grep output only the matching portion instead of the entire line.
+The regular expression matches an opening {, any characters except }, and the closing }.
+This allows the hidden flag to be extracted even from a single very long line of text.
