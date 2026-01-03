@@ -1,0 +1,10 @@
+geek{grep_is_good_to_find_things_cEDf1591}
+
+curl -L -o challenge1.txt https://raw.githubusercontent.com/opencodeiiita/Learn_To_Hack/refs/heads/main/LINUX_FUNDAMENTALS/Challenge1/file
+# curl to download the file, -L to follow redirects, -o to specify the output file name
+
+grep -o "geek{.*}" challenge1.txt 
+# grep to search for the pattern geek{, and print the matching string
+# . matches any character except a newline, * matches zero or more of the preceding character
+
+Screenshot: https://drive.google.com/file/d/1yGQZWMZRlnETqN4bKk7sePnAOnTKlcui/view?usp=sharing
